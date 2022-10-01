@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body { 
+    background-color: bisque;
+    background-image: url("../images/fire.jpg");
+    text-align: center;
+    font-family: sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,;
+
+}
+h2 { 
+    font-family: lobster, sans-serif; 
+    color: #00eab4;
+    font-size: 60px;
+    padding-top: 55px;
+}
+p { 
+    font-style: italic; 
+    font-weight: bold;
+}
+
+/* style for begin-test button */
+
+.begin-container { 
+    position: relative;
+    text-align: center;
+    
+}
+
+.begin { 
+    position: absolute; 
+    width: 50%; 
+    left:25%; 
+    right:25%; 
+    height: 40px; 
+    background-color: #00eab4;
+    display: ;
+}
+
+
+/* setting the style for the question-box display*/
+
+.questions-container { 
+    position:absolute; 
+    right:25%; 
+    left:25; 
+    width: 50%; 
+    height: 300px; 
+    background-color: #00eab4;
+    border-radius: 10%; 
+    display: none; 
+
+}
+
+p { 
+    font-size: large;
+    font-family: sans-serif;
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+}
+
+input[type="radio"] {
+    margin-right: 15px; 
+    margin-left: 15px; 
+
+}
+
+/* next button styling */ 
+
+.next { 
+    position: absolute;
+    bottom: 15%; 
+    right: 30%; 
+    left: 30%; 
+
+}
+
+
+/* media queries should come from 650px and smaller.. h2, radio and next button */
+
+
+
