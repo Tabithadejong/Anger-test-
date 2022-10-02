@@ -1,9 +1,6 @@
 let questionIndex = 0; 
 showQuestions(); 
-
-let input = document.getElementsByTagName("input"); 
-
-input.setAttribute("required"); 
+ 
 
 function showQuestions() { 
   document.getElementById("begin").style.display = "none"; 
@@ -16,7 +13,14 @@ function showQuestions() {
   questionIndex++; 
   if (questionIndex > questions.length) {alert("no more questions"); }
   questions[questionIndex-1].style.display= "block"; 
-  
 
+  
+}
+
+let score = 0; 
+
+function checkScore() { 
+  let input = getElementsByClassName("input").innerText; 
+  
   
 }
