@@ -19,72 +19,62 @@
     <div class="questions-container"> 
         <div id="question1" >
             <p> When your friend is annoying, will you say something?</p>
-            <input type="radio" name="annoying" value="always"> 
+            <input type="radio" name="annoying" value="always" required="required" aria-required="true"> 
             <label for="always"> Always</label>
-            <input type="radio" name="annoying" value="sometimes"> 
+            <input type="radio" name="annoying" value="sometimes" required="required"> 
             <label for="sometimes"> Sometimes</label>
-            <input type="radio" name="annoying" value="always"> 
+            <input type="radio" name="annoying" value="always" required="required"> 
             <label for="never"> Never</label> 
+            <button type="submit" name="annoying" value="send" class="next" required onclick="showQuestions()" >Next</button>
         </div>
-        <div class="next">
-            <button name="next" class="next" onclick="showQuestions()">Next</button>  
-        </div> 
     </div>
     <div class="questions-container"> 
         <div id="question2" >
             <p> When the waiter is rude, will you complain?</p>
-            <input type="radio" name="annoying" value="always"> 
+            <input type="radio" name="complain" value="always"> 
             <label for="always"> Always</label>
-            <input type="radio" name="annoying" value="sometimes"> 
+            <input type="radio" name="complain" value="sometimes"> 
             <label for="sometimes"> Sometimes</label>
-            <input type="radio" name="annoying" value="always"> 
+            <input type="radio" name="complain" value="always"> 
             <label for="never"> Never</label>
-        </div>
-        <div class="next">
             <button name="next" class="next" onclick="showQuestions()">Next</button>  
-        </div> 
+        </div>
     </div>
     <div class="questions-container"> 
         <div id="question3" >
             <p> How often are you fighting or in conflict? </p>
-            <input type="radio" name="annoying" value="always"> 
+            <input type="radio" name="conflict" value="always"> 
             <label for="always"> Always</label>
-            <input type="radio" name="annoying" value="sometimes"> 
+            <input type="radio" name="conflict" value="sometimes"> 
             <label for="sometimes"> Sometimes</label>
-            <input type="radio" name="annoying" value="always"> 
+            <input type="radio" name="conflict" value="always"> 
             <label for="never"> Never</label>
-        </div>
-        <div class="next">
             <button name="next" class="next" onclick="showQuestions()">Next</button>  
-        </div> 
+        </div>
     </div>
     <div class="questions-container"> 
         <div id="question4" >
             <p> Do you get frustrated in traffic?</p>
-            <input type="radio" name="annoying" value="always"> 
+            <input type="radio" name="traffic" value="always"> 
             <label for="always"> Always</label>
-            <input type="radio" name="annoying" value="sometimes"> 
+            <input type="radio" name="traffic" value="sometimes"> 
             <label for="sometimes"> Sometimes</label>
-            <input type="radio" name="annoying" value="always"> 
+            <input type="radio" name="traffic" value="always"> 
             <label for="never"> Never</label>
+            <button name="next" class="next" onclick="showQuestions()">Next</button> 
         </div>
-        <div class="next">
-            <button name="next" class="next" onclick="showQuestions()">Next</button>  
-        </div> 
     </div>
     <div class="questions-container"> 
         <div id="question5" >
             <p> Would you tell your loved ones the truth even when it hurts? </p>
-            <input type="radio" name="annoying" value="always"> 
+            <input type="radio" name="truth" value="always"> 
             <label for="always"> Always</label>
-            <input type="radio" name="annoying" value="sometimes"> 
+            <input type="radio" name="truth" value="sometimes"> 
             <label for="sometimes"> Sometimes</label>
-            <input type="radio" name="annoying" value="always"> 
+            <input type="radio" name="truth" value="always"> 
             <label for="never"> Never</label>  
+            <button name="next" class="next" onclick="showQuestions()">Next</button> 
         </div>
-        <div class="next">
-            <button name="next" class="next" onclick="showQuestions()">Next</button>  
-        </div> 
     </div>
 </body>
 </html>
