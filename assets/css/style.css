@@ -18,6 +18,28 @@ p {
     font-weight: bold;
 }
 
+/* div styling game */ 
+
+.hole { 
+    width: 150px; 
+    height: 150px; 
+    border: solid 2px green; 
+    
+}
+
+.container { 
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: center;
+    align-content: center;
+    width: 600px; 
+    height: 600px; 
+}
+
+.fire { 
+    background-image: url("../images/Fire-game.jpg");
+    
+}
 /* style for begin-test button */
 
 .begin-container { 
